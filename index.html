@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Basic stylesheet -->
+    <link rel="stylesheet" href="lib/owl-carousel/owl.carousel.css" />
+
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="lib/owl-carousel/owl.theme.css" />
+
+    <!-- You can use latest version of jQuery  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar mt-2">
+      <div class="container-fluid">
+        <span><img src="assets/icons/Menu.svg" /></span>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01"></div>
+        <img src="assets/icons/logo.svg" />
+        <div class="d-flex gap-3">
+          <img src="assets/icons/Search.svg" />
+          <img src="assets/icons/shopping bag.svg" />
+        </div>
+      </div>
+    </nav>
+    <div id="owl-demo" class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="assets/images/jacket.png" alt="Jacket Image" />
+      </div>
+
+      <div class="item">
+        <img src="assets/images/jacket2.png" alt="Jacket Image" />
+      </div>
+      <div class="item">
+        <img src="assets/images/jacket-open.png" alt="Jacket Image" />
+      </div>
+      <div class="item">
+        <img src="assets/images/jacket-quality.png" alt="Jacket Image" />
+      </div>
+      <div class="item">
+        <img src="assets/images/jacket-quality2.png" alt="Jacket Image" />
+      </div>
+      <div class="item">
+        <img src="assets/images/jacket-quality3.png" alt="Jacket Image" />
+      </div>
+    </div>
+    <div class="item-data d-flex flex-column gap-2">
+      <h1>Mohan</h1>
+      <p class="item-info">Recycle boucle knit cardigan pink</p>
+      <p class="item-price">$120</p>
+    </div>
+    <div class="item-detail d-flex gap-5">
+      <div class="color-switch d-flex align-items-center gap-3">
+        <h6>Color</h6>
+        <div class="d-flex gap-3 color-options">
+          <div>
+            <input
+              name="color-option"
+              type="radio"
+              class="btn-check bg-dark"
+              id="btn-check"
+              autocomplete="off"
+            />
+            <label class="bg-dark rounded-circle" for="btn-check"></label>
+          </div>
+          <div>
+            <input
+              name="color-option"
+              type="radio"
+              class="btn-check"
+              id="btn-check2"
+              autocomplete="off"
+            />
+            <label class="option2 rounded-circle" for="btn-check2"></label>
+          </div>
+          <div>
+            <input
+              name="color-option"
+              type="radio"
+              class="btn-check"
+              id="btn-check1"
+              autocomplete="off"
+            />
+            <label class="option3 rounded-circle" for="btn-check1"></label>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <h6>Size</h6>
+        <div class="d-flex gap-2">
+          <div
+            id="size"
+            class="size-option d-flex justify-content-center align-items-center align-self-center"
+          >
+            <h6>S</h6>
+          </div>
+          <div
+            id="size"
+            class="size-option d-flex justify-content-center align-items-center align-self-center"
+          >
+            <h6>M</h6>
+          </div>
+          <div
+            id="size"
+            class="size-option d-flex justify-content-center align-items-center align-self-center"
+          >
+            <h6>L</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- Include js plugin -->
+  <script
+    src="https://code.jquery.com/jquery-3.7.0.js"
+    integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"
+  ></script>
+  <script src="lib/owl-carousel/owl.carousel.js"></script>
+  <script src="main.js"></script>
+</html>

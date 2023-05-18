@@ -1,0 +1,73 @@
+h5,
+h6,
+h1,
+p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 16px;
+  color: #555555;
+}
+
+.item-data {
+  margin-top: 48px;
+  margin-left: 16px;
+  text-transform: capitalize;
+}
+.item-data h1 {
+  font-size: 16px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: black;
+}
+.item-data .item-price {
+  font-size: 18px;
+  color: #dd8560;
+}
+
+.item-detail {
+  margin-top: 24px;
+  margin-left: 16px;
+  color: #555555;
+}
+.item-detail h6 {
+  font-size: 12px;
+}
+.item-detail label {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+}
+.item-detail .option2 {
+  background-color: #dd8560;
+}
+.item-detail .option3 {
+  background-color: #e1e0db;
+}
+.item-detail .size-option {
+  width: 24px;
+  height: 24px;
+  border: solid 1px #e1e0db;
+  border-radius: 50%;
+}
+
+input[type=radio]:checked + label {
+  border: solid 2px white;
+  outline: solid 1px #555555;
+  border-radius: 50%;
+}
+
+#owl-demo .item {
+  margin: 3px;
+}
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
