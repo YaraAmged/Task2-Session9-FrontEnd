@@ -1,6 +1,3 @@
-function selectColor(e) {
-  console.log(e.target);
-}
 $(document).ready(function () {
   $("#owl-demo").owlCarousel({
     items: 1,
