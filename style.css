@@ -5,6 +5,10 @@ p {
   margin: 0;
 }
 
+h5 {
+  text-transform: uppercase;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -26,7 +30,8 @@ body {
   text-transform: uppercase;
   color: black;
 }
-.item-data .item-price {
+
+.item-price {
   font-size: 18px;
   color: #dd8560;
 }
@@ -61,6 +66,58 @@ input[type=radio]:checked + label {
   border: solid 2px white;
   outline: solid 1px #555555;
   border-radius: 50%;
+}
+
+ul.dropdown {
+  display: none;
+}
+ul.dropdown li {
+  list-style-type: none;
+}
+ul.dropdown li a {
+  color: #555555;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-bar {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  background: white;
+  transition: all 0.2s;
+}
+.menu-bar.active {
+  transition: all 0.2s;
+  left: 0;
+}
+
+#cart {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background: white;
+  transition: all 0.2s;
+}
+#cart.active {
+  transition: all 0.2s;
+  right: 0;
+}
+
+.cart-info {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.image-cart {
+  width: 104px;
+  height: 122px;
 }
 
 #owl-demo .item {
